@@ -1,6 +1,6 @@
 // Convertidor de gigabytes a megabytes.
 
-function conversorGb (gigabytes: number, valorFijo: number = 1000) {
+function conversorGb (gigabytes: number, valorFijo: number = 1024) {
     let megabytes: number = (gigabytes * valorFijo);
     return megabytes;
 }
